@@ -1,0 +1,25 @@
+@import "color-palette";
+
+$brand: palette(yellow);
+$primary: palette(purple);
+
+$primary-button: palette(purple);
+$primary-button-hover: palette(purple, dark);
+$primary-link: palette(purple);
+$primary-link-hover: palette(purple, dark);
+
+$delimited: palette(silver, lightest);
+$unselectable: palette(silver, light);
+$softlyspoken: palette(silver);
+$clarity: palette(silver, mid);
+$loudmouth: palette(silver, dark);
+$pink: palette(pink);
+$slimeGreen: palette(turquoise);
+$teal: palette(teal);
+
+$warning: palette(red);
+
+// *** utilitary colors ***
+$white: palette(white);
+$black: palette(black);
+$transparent: palette(black, transparent);

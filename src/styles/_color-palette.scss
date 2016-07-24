@@ -1,0 +1,49 @@
+// scss-lint:disable TrailingSemicolon
+
+$palettes: (
+    black: (
+        base: #000,
+        transparent: rgba(0,0,0,.75)
+    ),
+    white: (
+        base: #fff,
+        transparent: rgba(255, 255, 255, .2),
+        opaque: rgba(255, 255, 255, .7)
+    ),
+    silver: (
+        lightest: #f4f4f4,
+        light: #e7e7e7,
+        base: #c9c9c9,
+        mid: #8e8e93,
+        dark: #57595e
+    ),
+    purple: (
+        base: #902885,
+        dark: #4F1649
+    ),
+    yellow: (
+        base: #EBCC4B,
+        dark: #B89F3B
+    ),
+    pink: (
+        base: #D054C3,
+        dark: #AD47AC
+    ),
+    turquoise: (
+        base: #39B8A6,
+        dark: #37A59E
+    ),
+    teal: (
+        base: #16706B,
+        dark: #175F6D
+    ),
+    red: (
+        base: #ff0000
+    )
+);
+
+// scss-lint:enable TrailingSemicolon
+
+@function palette($color, $tone: 'base') {
+    @return map-get(map-get($palettes, $color), $tone);
+}

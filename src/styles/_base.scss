@@ -1,0 +1,37 @@
+/*
+Application Settings Go Here
+------------------------------------
+This file acts as a bundler for all variables/mixins/themes, so they
+can easily be swapped out without `core.scss` ever having to know.
+
+For example:
+
+@import './variables/colors';
+@import './variables/components';
+@import './themes/default';
+*/
+
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+// The app render target in React Storybook.
+#root {
+  padding: 2rem 0;
+}
