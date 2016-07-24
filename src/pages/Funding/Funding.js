@@ -13,13 +13,11 @@ class Funding extends Component {
     return (
       <div>
         <ul>
-          test
+          Insert Sexy Graph Data
         </ul>
       </div>
     );
   }
 }
 
-
-
-export default connect({ fetchFundingData });
+export default Funding;

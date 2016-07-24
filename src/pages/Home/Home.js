@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 import Button from '../../components/Button/index';
 
-const List = [{name: "Funding and Finance", location: "FundingAndFinance"}, {name: "Policy and Regulation", location: "PolicyAndRegulation"}, {name: "Trade", location: "Trade"} ]
+const List = [{name: "Funding and Finance", location: "Funding"}, {name: "Policy and Regulation", location: "PolicyAndRegulation"}, {name: "Trade", location: "Trade"} ]
 
 
 class Home extends Component {
