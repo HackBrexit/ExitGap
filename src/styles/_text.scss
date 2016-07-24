@@ -1,0 +1,43 @@
+@import "function-palette";
+@import "variables";
+/* Document level adjustments */
+html {
+  font-size: 18px;
+  color: $loudmouth;
+}
+
+h1 {
+  font-size: $fontSizeH1;
+  line-height: $lineHeightH1;
+  margin: 0 0 1rem 0;
+}
+
+h2 {
+  font-size: $fontSizeH2;
+  line-height: $lineHeightH2;
+  margin: 0 0 1rem 0;
+}
+
+h3 {
+  font-size: $fontSizeH3;
+  line-height: $lineHeightH3;
+  margin: 0 0 1rem 0;
+}
+
+h4 {
+  font-size: $fontSizeH4;
+  line-height: $lineHeightH4;
+  margin: 0 0 1rem 0;
+}
+
+h5 {
+  font-size: $fontSizeH5;
+  line-height: $lineHeightH5;
+  margin: 0 0 1rem 0;
+}
+
+p {
+  font-size: 1rem;
+  line-height: $lineHeightP;
+  margin: 0 0 1rem 0;
+}
